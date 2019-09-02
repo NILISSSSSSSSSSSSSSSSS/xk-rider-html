@@ -1,0 +1,25 @@
+.add-user-group {
+    .user-container {
+        width: 500px;
+
+        .num {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                display: inline-block;
+            }
+        }
+
+        .people {
+
+            span {
+                display: inline-block;
+                border: 1px solid #999;
+                border-radius: 5px;
+                padding: 5px 10px;
+            }
+        }
+    }
+}

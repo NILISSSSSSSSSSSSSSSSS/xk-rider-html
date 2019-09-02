@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.staticfile.org/element-ui/2.4.11/theme-chalk/index.css"
+        />
+        <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+        <title>晓可配送后台管理系统</title>
+    </head>
+
+    <body>
+        <noscript>
+            <strong
+                >We're sorry but xk-rider-html doesn't work properly without
+                JavaScript enabled. Please enable it to continue.</strong
+            >
+        </noscript>
+
+        <div id="app"></div>
+
+        <!-- <script src="https://cdn.staticfile.org/vue/2.5.17/vue.min.js"></script> -->
+        <script src="https://cdn.staticfile.org/vue/2.5.17/vue.js"></script>
+        <script src="https://cdn.staticfile.org/vuex/3.0.1/vuex.min.js"></script>
+        <script src="https://cdn.staticfile.org/vue-router/3.0.1/vue-router.min.js"></script>
+        <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+        <script src="https://cdn.staticfile.org/element-ui/2.4.11/index.js"></script>
+        <!-- built files will be auto injected -->
+        <script>
+            let u = navigator.userAgent.toLowerCase();
+            if (
+                u.includes("windows") |
+                u.includes("win32") |
+                u.includes("win64")
+            ) {
+                let css = `::-webkit-scrollbar {
+              width:10px; 
+              height:10px; 
+              background-color:transparent;
+          } /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+          ::-webkit-scrollbar-track {
+              background-color:rgba(151, 149, 227,0.3); 
+              border-radius:10px; 
+              -webkit-box-shadow:inset 0 0 6px rgba(151, 149, 227,0.3);
+          } /*定义滚动条轨道 内阴影+圆角*/
+          ::-webkit-scrollbar-thumb {
+              background-color:rgb(151, 149, 227); 
+              border-radius:10px; 
+              -webkit-box-shadow:inset 0 0 6px rgba(151, 149, 227,0.3);
+          } /*定义滑块 内阴影+圆角*/`;
+                let head = document.getElementsByTagName("head")[0];
+                let style = document.createElement("style");
+                style.appendChild(document.createTextNode(css));
+                head.appendChild(style);
+            }
+        </script>
+    </body>
+</html>

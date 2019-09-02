@@ -1,0 +1,92 @@
+.check-result {
+    $item-padding: 0 40px;
+
+    /deep/ .el-dialog__body {
+        max-height: 75vh;
+        overflow: auto;
+    }
+
+    /deep/ .title {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /deep/ .el-button {
+        margin-top: 10px;
+    }
+
+    /deep/ .checked {
+        padding: $item-padding;
+        font-size: 14px;
+        line-height: 40px;
+
+        label {
+            width: 120px;
+            text-align: center;
+        }
+
+        .detail {
+            width: 400px;
+            text-align: left;
+        }
+    }
+
+    .el-form {
+        padding: $item-padding;
+    }
+
+    .el-form-item {
+        margin-bottom: 10px;
+    }
+
+    .item {
+        margin: 15px 0;
+        padding: $item-padding;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        .label {
+            width: 120px;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .detail {
+            padding-left: 20px;
+
+            img {
+                min-width: 160px;
+                max-width: 180px;
+                min-height: 90px;
+                background: #ddd;
+            }
+        }
+    }
+
+    .item-big-picture {
+        flex-wrap: wrap;
+        padding: $item-padding;
+
+        .label {
+            width: 150px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .detail {
+            width: 100%;
+            margin: 15px 0;
+
+            img {
+                min-width: 160px;
+                max-width: 180px;
+                min-height: 90px;
+                background: #ddd;
+                margin: 0 15px;
+            }
+        }
+    }
+}

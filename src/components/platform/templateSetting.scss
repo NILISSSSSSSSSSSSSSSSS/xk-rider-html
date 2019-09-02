@@ -1,0 +1,31 @@
+.template-setting {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.rider-form {
+    padding: 0 0 25px 0;
+}
+
+.el-date-editor {
+    border-radius: 7px;
+}
+
+// .line-start-start,
+// .line-flex-start {
+//     margin-top: 30px !important;
+// }
+.empty {
+    /deep/ .el-input__inner {
+        background: rgba(245, 108, 108, 0.5) !important;
+    }
+}
+
+.el-switch {
+    /deep/ .el-switch__label {
+        color: #8B8D9E;
+    }
+
+    /deep/ .is-active {
+        color: #ffffff;
+    }
+}
