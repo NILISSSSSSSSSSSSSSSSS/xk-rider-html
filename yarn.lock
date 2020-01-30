@@ -8004,10 +8004,10 @@ timsort@^0.3.0:
   resolved "http://registry.npm.taobao.org/timsort/download/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tinymce@^5.0.3:
-  version "5.0.3"
-  resolved "http://registry.npm.taobao.org/tinymce/download/tinymce-5.0.3.tgz#40fa8658b5bdf58e7f04c816b38e1b06f96f6cfe"
-  integrity sha1-QPqGWLW99Y5/BMgWs44bBvlvbP4=
+tinymce@^5.1.4:
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.1.4.tgz#a45282a68e66d0959bcae19a972f8ae52a358667"
+  integrity sha512-Y7JYnByNF2A4BzR2KIbKEQV90PHZ5OwsU5An1Qj1zbSI8aXCOOhffL04LqlGw5UP/ookaC/V9V41H5XJbp/l9w==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
